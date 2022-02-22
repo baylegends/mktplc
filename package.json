@@ -1,0 +1,42 @@
+{
+  "name": "mktplc",
+  "version": "1.0.0",
+  "description": "Dynamic E-commerce Web App",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack --config ./webpack.config.js --mode development -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baylegends/mktplc.git"
+  },
+  "keywords": [
+    "e-commerce"
+  ],
+  "author": "bayLegends",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baylegends/mktplc/issues"
+  },
+  "homepage": "https://github.com/baylegends/mktplc#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "html-webpack-plugin": "^5.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "nodemon": "^2.0.15",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
